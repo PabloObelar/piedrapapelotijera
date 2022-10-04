@@ -5,6 +5,8 @@ body {
 
 #elegir {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 #elegir li {
   list-style: none;
@@ -17,4 +19,9 @@ body {
 p {
   vertical-align: middle;
   font-size: 1.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: blue;
+  font-family: sans-serif;
 }

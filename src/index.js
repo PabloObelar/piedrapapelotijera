@@ -49,7 +49,9 @@ const PiedraPapelTijeras = () => {
               alt="computer"
             />
           </p>
-          <p>{mensajeGanador}</p>
+          <p>
+            <strong>{mensajeGanador}</strong>
+          </p>
         </section>
       );
     } else {
@@ -57,7 +59,7 @@ const PiedraPapelTijeras = () => {
     }
   };
   return (
-    <div id="container">
+    <div className="container">
       <ul id="elegir">
         {elementos.map((el, i) => (
           <li key={i} data-id={i} onClick={jugar}>
